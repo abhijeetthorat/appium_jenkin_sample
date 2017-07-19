@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48687" started-at="2017-07-19T05:23:25Z" finished-at="2017-07-19T05:24:14Z">
+  <suite name="Default suite" duration-ms="58302" started-at="2017-07-19T06:51:31Z" finished-at="2017-07-19T06:52:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48687" started-at="2017-07-19T05:23:25Z" finished-at="2017-07-19T05:24:14Z">
-      <class name="com.fb.web.FbTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.fb.web.FbTest@5abca1e0]" name="setUp" is-config="true" duration-ms="12702" started-at="2017-07-19T10:53:25Z" finished-at="2017-07-19T10:53:38Z">
+    <test name="Default test" duration-ms="58302" started-at="2017-07-19T06:51:31Z" finished-at="2017-07-19T06:52:29Z">
+      <class name="com.android.test.AndroidTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.android.test.AndroidTest@5abca1e0]" name="setUp" is-config="true" duration-ms="20351" started-at="2017-07-19T12:21:31Z" finished-at="2017-07-19T12:21:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomeScreen()[pri:1, instance:com.fb.web.FbTest@5abca1e0]" name="verifyHomeScreen" duration-ms="793" started-at="2017-07-19T10:53:38Z" finished-at="2017-07-19T10:53:39Z">
+        <test-method status="PASS" signature="verifyHomeScreen()[pri:1, instance:com.android.test.AndroidTest@5abca1e0]" name="verifyHomeScreen" duration-ms="1101" started-at="2017-07-19T12:21:51Z" finished-at="2017-07-19T12:21:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomeScreen -->
-        <test-method status="PASS" signature="verifyHomeTabs()[pri:2, instance:com.fb.web.FbTest@5abca1e0]" name="verifyHomeTabs" duration-ms="11148" started-at="2017-07-19T10:53:39Z" finished-at="2017-07-19T10:53:50Z">
+        <test-method status="PASS" signature="verifyHomeTabs()[pri:2, instance:com.android.test.AndroidTest@5abca1e0]" name="verifyHomeTabs" duration-ms="11898" started-at="2017-07-19T12:21:53Z" finished-at="2017-07-19T12:22:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomeTabs -->
-        <test-method status="FAIL" signature="startTutorials()[pri:3, instance:com.fb.web.FbTest@5abca1e0]" name="startTutorials" duration-ms="21342" started-at="2017-07-19T10:53:50Z" finished-at="2017-07-19T10:54:11Z">
+        <test-method status="FAIL" signature="startTutorials()[pri:3, instance:com.android.test.AndroidTest@5abca1e0]" name="startTutorials" duration-ms="21538" started-at="2017-07-19T12:22:04Z" finished-at="2017-07-19T12:22:26Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [AboutUs] but found [test]]]>
@@ -32,8 +32,8 @@
 	at org.testng.Assert.assertEquals(Assert.java:116)
 	at org.testng.Assert.assertEquals(Assert.java:190)
 	at org.testng.Assert.assertEquals(Assert.java:200)
-	at com.fb.object.TopicsPage.verifyQuestions(TopicsPage.java:149)
-	at com.fb.web.FbTest.startTutorials(FbTest.java:105)
+	at com.android.object.TopicsPage.verifyQuestions(TopicsPage.java:149)
+	at com.android.test.AndroidTest.startTutorials(AndroidTest.java:105)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -64,11 +64,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTutorials -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.fb.web.FbTest@5abca1e0]" name="teardown" is-config="true" duration-ms="2664" started-at="2017-07-19T10:54:11Z" finished-at="2017-07-19T10:54:14Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.android.test.AndroidTest@5abca1e0]" name="teardown" is-config="true" duration-ms="3385" started-at="2017-07-19T12:22:26Z" finished-at="2017-07-19T12:22:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.fb.web.FbTest -->
+      </class> <!-- com.android.test.AndroidTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

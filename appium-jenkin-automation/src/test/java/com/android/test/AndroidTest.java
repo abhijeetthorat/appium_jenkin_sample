@@ -1,4 +1,4 @@
-package com.fb.web;
+package com.android.test;
 
 import java.awt.Dimension;
 import java.awt.GraphicsConfiguration;
@@ -46,14 +46,14 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.fb.object.HomePage;
-import com.fb.object.TopicsPage;
+import com.android.object.HomePage;
+import com.android.object.TopicsPage;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 
 
-public class FbTest {
+public class AndroidTest {
 
 	protected static AndroidDriver driver;
 	Logger logger = Logger.getLogger("devpinoyLogger");
