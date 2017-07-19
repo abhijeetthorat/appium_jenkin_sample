@@ -70,7 +70,7 @@ public class AndroidTest {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability("BROWSER_NAME", "Android");
 		capabilities.setCapability("VERSION", "5.01");
-		capabilities.setCapability("deviceName", "Emulator");
+		capabilities.setCapability("deviceName", "Android Emulator");
 		capabilities.setCapability("platformName", "Android");
 		capabilities.setCapability("app", app.getAbsolutePath());
 		capabilities.setCapability("appPackage", "com.aza.androidtutorials");
